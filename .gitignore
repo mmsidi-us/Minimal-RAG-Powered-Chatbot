@@ -1,0 +1,16 @@
+# Environment & secrets
+.env
+
+# Python / Pytest / Virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# ChromaDB persistent data & OS files
+rag_db/
+.DS_Store
+Thumbs.db
